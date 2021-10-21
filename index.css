@@ -1,0 +1,162 @@
+/* Body of the Clock */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Clock Dial */
+.clock-dial{
+    background-color: rgb(163, 202, 214);
+    width: 500px;
+    height: 500px;
+    border: 30px solid #000000;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.point{
+    width: 20px;
+    height: 20px;
+    background-color:black;
+    border-radius: 50%;
+    position: absolute;
+    top: 240px;
+    right: 240px;
+}
+
+/* Hours in the clock */
+.hour{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    position: absolute;
+}
+
+.hour-1{
+    top: 40px;
+    right: 130px;
+}
+.hour-2{
+    top: 125px;
+    right: 45px;
+}
+.hour-3{
+    top: 235px;
+    right: 10px;
+}
+.hour-4{
+    top: 345px;
+    right: 45px;
+}
+.hour-5{
+    top: 430px;
+    right: 130px;
+}
+.hour-6{
+    bottom: 10px;
+    right: 240px;
+}
+.hour-7{
+    top: 430px;
+    left: 130px;
+}
+.hour-8{
+    top: 345px;
+    left: 45px;
+}
+.hour-9{
+    top: 235px;
+    left: 10px;
+}
+.hour-10{
+    top: 125px;
+    left: 45px;
+}
+.hour-11{
+    top: 40px;
+    left: 130px;
+}
+.hour-12{
+    top: 10px;
+    right: 240px;
+}
+.brand{
+    font-size: large;
+    font-family: cursive;
+    font-weight: bold;
+    position: absolute;
+    top: 100px;
+    right: 210px;
+}
+
+
+/* minute hand CSS*/
+.minute-hand-wrapper{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 50%;
+}
+
+.minute-hand{
+    position: relative;
+}
+
+.minute-hand .hand{
+    width: 4px;
+    height: 200px;
+    background-color: #298b76;
+    position: absolute;
+    left: 198px;  
+}
+
+
+
+/* hour hand CSS */
+.hour-hand-wrapper{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border-radius: 50%;
+}
+
+.hour-hand{
+    position: relative;
+}
+
+.hour-hand .hand{
+    width: 4px;
+    height: 150px;
+    background-color: #404b69;
+    position: absolute;
+    left: 148px;  
+}
+
+
+
+/* second hand CSS*/
+.second-hand-wrapper{
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    border-radius: 50%;
+}
+
+.second-hand{
+    position: relative;
+}
+
+.second-hand .hand{
+    width: 2px;
+    height: 175px;
+    background-color: #404b69;
+    position: absolute;
+    left: 174px;
+    background-color: blue;
+}
